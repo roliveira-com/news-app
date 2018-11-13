@@ -1,0 +1,17 @@
+[
+    {
+        "imagem": ["/assets/image/the-game-awards.jpg"],
+        "titulo": "The Game Awards | RDR2, God of War e AC Odyssey são indicados a Melhor Jogo de 2018",
+        "descricao": " A organização oficial do The Game Awards revelou nesta terça-feira (13) a tão esperada lista de indicados de todas as categorias da maior premiação de games do mundo! Os dois jogos que mais receberam indicações foram Red Dead Redemption 2 e God of War, empatados com oito aparições."
+    },
+    {
+        "imagem": ["/assets/image/rei-da-noite.jpg"],
+        "titulo": "Game of Thrones | Última temporada ganha previsão de estreia",
+        "descricao": "Uma data específica não foi revelada por enquanto. As filmagens da temporada foram tão secretas que a HBO usou um bloqueador de drones no set."
+    },
+    {
+        "imagem": ["/assets/image/nintendo-12-milhoes-sites-roms.png"],
+        "titulo": "Nintendo ganha US$ 12 milhões de processo contra sites de emuladores e ROMs ",
+        "descricao":"No final de julho deste ano, a Nintendo abriu processo contra dois sites de emuladores e ROMs, o LoveROMs e o LoveRETRO, por violação de marca registrada e direitos autorais."
+    }
+]

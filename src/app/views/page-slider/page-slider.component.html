@@ -1,0 +1,9 @@
+<div class="carousel">
+  <div class="article" *ngFor="let article of news; article as item">
+      <div class="banner">
+        <img [src]="article.imagem[0] || article.imagem" [alt]="article.titulo" #imagebanner>
+      </div>
+      <h2>{{ article.titulo }}</h2>
+  </div>
+</div>
+

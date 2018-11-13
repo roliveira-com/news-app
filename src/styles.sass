@@ -1,1 +1,107 @@
-/* You can add global styles to this file, and also import other style files */
+$primary    : #00ccba;
+$secondary  : #f3f3f3;
+$accent     : #1D4E89;
+$clear      : #FFF;
+$smooth     : #ddd;
+$strong     : #333;
+
+$font-primary   : "Sofia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-secondary : "Sofia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-accent    : "Sofia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-text      : "Sofia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+html 
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+
+body 
+  // background-color: $primary;
+  background-color: $smooth;
+  // background-image: url(/assets/image/pattern-verde.png);
+  color: $strong;
+  font-family: $font-primary;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  margin: 0;
+
+
+main
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+
+input,
+button,
+select,
+textarea 
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+
+a 
+  color: $accent;
+  text-decoration: none;
+
+a:hover,
+a:focus 
+  text-decoration: underline;
+
+a:focus 
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+
+figure 
+  margin: 0;
+
+img 
+  vertical-align: middle;
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img 
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+.img-rounded 
+  border-radius: 6px;
+
+.img-thumbnail 
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: $clear;
+  border: 1px solid $smooth;
+  border-radius: 4px;
+  transition: all .2s ease-in-out;
+
+.img-circle 
+  border-radius: 50%;
+
+hr 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+
+
+.visibility-off
+  visibility: hidden;
+
+
+.hide-navigation
+  position: absolute;
+  text-indent: -8000px;
+  left: -50px;
+
+
+.container 
+  margin: 0 auto;
+  width: 95%;

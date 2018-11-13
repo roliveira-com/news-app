@@ -1,0 +1,1 @@
+declare module 'tiny-slider/src/tiny-slider';
